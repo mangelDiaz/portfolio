@@ -1,3 +1,121 @@
 body {
-  background-color: red;
+  background-color: #f1f1f1;
+}
+
+.headerwords {
+  font-size: 14px;
+  font-family: helvetica, sans-serif;
+  font-weight: normal;
+  color: grey;
+}
+
+.headerwords2 {
+  padding-right: 20px;
+  font-size: 14px;
+  font-family: helvetica, sans-serif;
+  font-weight: normal;
+  color: grey;
+}
+
+.container {
+  width: 1000px;
+}
+
+.headermain{
+  widows: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu-list li a{
+  color: black;
+  text-decoration: none;
+}
+
+.headerlogo {
+  width: 200px;
+  padding-left: 20px;
+}
+
+.headerp {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pp {
+  font-size: 33px;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+  line-height: 42px;
+  font-weight: normal;
+  padding-top: 150px;
+  padding-bottom: 190px;
+  color: grey;
+  width: 1000px;
+}
+
+.ppp {
+  font-size: 14px;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+  line-height: 20px;
+  font-weight: normal;
+  padding-top: 150px;
+  padding-bottom: 190px;
+  color: grey;
+  width: 1000px;
+}
+
+.imgeneral {
+  width: 1000px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.trabajo1 {
+  background-color: yellow;
+  text-align: center;
+  width: 700px;
+  height: 100px;
+  position: absolute;
+  top: 1200px;
+  left: 350px;
+}
+
+.trabajo1p {
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+.trabajo1p2 {
+  padding-top: -30px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+  font-weight: normal;
+}
+
+.trabajo2 {
+  background-color: yellow;
+  text-align: center;
+  width: 700px;
+  height: 100px;
+  position: absolute;
+  top: 1960px;
+  left: 350px;
 }
